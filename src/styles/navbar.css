@@ -24,13 +24,17 @@
     
     nav{
         border-bottom: 1px solid black;
+        width: 100%;
     }
     .logo{
         top: 0;
         margin-top: 0;
         float: right;
-        width: 75px;
+        /* position: fixed; */
+        /* right: 0; */
+        width: 55px;
         height: 100%;
+        display: inline;
     }
     .hamburger-button
     {
