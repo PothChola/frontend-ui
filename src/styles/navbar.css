@@ -22,8 +22,15 @@
         display: none;
     }
     
+    nav{
+        border-bottom: 1px solid black;
+    }
     .logo{
+        top: 0;
+        margin-top: 0;
         float: right;
+        width: 75px;
+        height: 100%;
     }
     .hamburger-button
     {
