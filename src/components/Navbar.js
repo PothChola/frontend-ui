@@ -8,8 +8,8 @@ function Navbar() {
   const [isMobile, setIsMobile]= useState(false);
   return (
     <nav>
-      <img src={logo} className="logo inline"/>
-       <button className="hamburger-button" onClick={()=> setIsMobile(!isMobile)}><img src={hamburger}/></button>
+      <img src={logo} className="logo inline" alt='logo'/>
+       <button className="hamburger-button" onClick={()=> setIsMobile(!isMobile)}><img src={hamburger} alt='menuIcon'/></button>
             <div 
                 className={isMobile ? "land-nav-mobile" : "land-nav flex justify-evenly"}
                 onClick={() => setIsMobile(false)}
