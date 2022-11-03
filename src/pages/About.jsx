@@ -2,8 +2,8 @@ import React from 'react'
 import "../styles/about.css"
 function About() {
   return (
-    <div>
-      <h1 className='about-text1 font-extrabold pl-1 text-blue-500 italic pb-5'>Why Choose us?</h1>
+    <div className='about'>
+      <h1 className='about-text1 font-extrabold pl-1 text-blue-500 italic'>Why Choose us?</h1>
       <h2 className='about-text2 pl-1'>We Are Professional, Convenient & Easy to Use</h2>
       <h2 className='about-text3'>We are here to guide you, with the best route.</h2>
       <ul  className="list list-disc ml-5 pl-6">

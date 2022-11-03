@@ -1,3 +1,8 @@
+.about{
+    /* height: 60vh; */
+    display: flex;
+    flex-direction: column;
+}
 .about-text1{
     font-size: 24px;
 }
@@ -10,6 +15,5 @@
 .about-text3{
     font-size: 16px;
     padding-left: 16px;
-    padding-bottom: 10px;
     /* font-weight: bold; */
 }

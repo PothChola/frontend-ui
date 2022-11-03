@@ -2,14 +2,18 @@ import React,{useState} from 'react'
 import { NavLink } from 'react-router-dom'
 import "../styles/navbar.css";
 import logo from "../assets/logo.png"
+import logo2 from"../assets/logo2.svg";
 import hamburger from "../assets/hamburger.svg";
 
 function Navbar() {
   const [isMobile, setIsMobile]= useState(false);
   return (
     <nav>
-      <img src={logo} className="logo inline" alt='logo'/>
-       <button className="hamburger-button" onClick={()=> setIsMobile(!isMobile)}><img src={hamburger} alt='menuIcon'/></button>
+      <div className='buttonlogo'>
+        <img src={hamburger} alt='menuIcon' className="hamburger-button" onClick={()=> setIsMobile(!isMobile)}/>
+        <img src={logo2} className="logo" alt='logo'/>
+      </div>
+     
             <div 
                 className={isMobile ? "land-nav-mobile" : "land-nav flex justify-evenly"}
                 onClick={() => setIsMobile(false)}
