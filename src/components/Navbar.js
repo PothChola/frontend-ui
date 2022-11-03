@@ -15,11 +15,11 @@ function Navbar() {
                 onClick={() => setIsMobile(false)}
             >
            
-          <NavLink to="/">Home</NavLink>
+          <NavLink to="/" className="home text-yellow-300">Home</NavLink>
         
-          <NavLink to="/About">About</NavLink>
+          <NavLink to="/About" className="home text-yellow-300">About</NavLink>
         
-          <NavLink to="/Contact">Contact</NavLink>
+          <NavLink to="/Contact" className="home text-yellow-300">Contact</NavLink>
         </div>
     </nav>
   )
