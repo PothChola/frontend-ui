@@ -17,10 +17,10 @@ function About() {
       <h2 className='about-text2 pl-1 pb-2 mt-6'>We have a wide range of solution to your problem-</h2>
       <ol className='list-decimal ml-5 pl-6'>
         <li>Solutions and specialized
-          <h2>Our aim is to optimize and improve the guidance so that we can give you the best service.</h2>
+          <p>Our aim is to optimize and improve the guidance so that we can give you the best service.</p>
         </li>
-        <li>Fastest vs cheapest route<h2>We provide multiple routes so you don't have to worry and you should not face any trouble.</h2></li>
-        <li>Tracking made easy<h2>A tracking number for the entire process so that you can find the exact position. This process will help you.</h2></li>
+        <li>Fastest vs cheapest route<p>We provide multiple routes so you don't have to worry and you should not face any trouble.</p></li>
+        <li>Tracking made easy<p>A tracking number for the entire process so that you can find the exact position. This process will help you.</p></li>
       </ol>
     </div>
   )
