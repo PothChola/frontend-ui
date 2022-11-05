@@ -1,0 +1,38 @@
+@mixin mobile {
+  @media screen and (max-width: 480px) {
+      @content;
+  }
+}
+.ContactInfo {
+    padding: 2rem;
+    width: 30%;
+  background-color: #afbdeb;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  position: relative;
+  left: 150px;
+  .icon {
+    color: var(--white);
+    background-color: var(--gray-2);
+    padding: 1.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    // position: fixed;
+    padding-right: 50px;
+  }
+
+  .info {
+    p {
+      font-size: 2rem;
+      padding-right: 50px;
+    }
+  }
+  svg {
+    width: 3.5rem;
+  }
+}

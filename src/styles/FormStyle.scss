@@ -1,0 +1,132 @@
+.FormStyle {
+    // width: 100%;
+    position: relative;
+    top: -395px;
+    right: -1000px;
+    // display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    width: 30%;
+  background-color: #afbdeb;
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+
+  .form-group1 {
+    width: 100%;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+  
+  label {
+    font-size: x-large;
+    
+  input {
+    padding: 10px;
+    font-size: medium;
+    border-bottom: 1px solid #a7bcff;
+    border: none;
+    position: relative;
+    right: 100px;
+    top: 50px;
+    width: 20rem;
+    height: 2rem;
+  }
+  }
+}
+
+  .form-group2 {
+    width: 100%;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    bottom: 20px;
+    position: relative;
+
+  label {
+        font-size: x-large;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        cursor: pointer;
+  input {
+    padding: 10px;
+    font-size: medium;
+    border-bottom: 1px solid #a7bcff;
+    border: none;
+    position: relative;
+    right: 100px;
+    top: 50px;
+    width: 20rem;
+    height: 2rem;
+  }
+  }
+}
+
+.form-group3 {
+    width: 100%;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+
+  label {
+        font-size: x-large;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        cursor: pointer;
+        position: relative;
+        bottom: 110px;
+  
+  textarea {
+    padding: 10px;
+    font-size: medium;
+    border-bottom: 1px solid #a7bcff;
+    border: none;
+    position: relative;
+    right: 130px;
+    top: 120px;
+    width: 20rem;
+    height: 10rem;
+  }
+  }
+}
+
+//   textarea {
+//     width: 100%;
+//     font-size: 2rem;
+//     padding: 105rem;
+//     color: lightgrey;
+//     background-color: var(--deep-dark);
+//     outline: none;
+//     border: none;
+//     border-radius: 8px;
+//     margin-top: 1rem;
+//   }
+//   textarea {
+//     min-height: px;
+//     resize: vertical;
+//   }
+  button {
+    background-color: lightgrey;
+    color: black;
+    font-size: 1.5rem;
+    display: inline-block;
+    outline: none;
+    border: black;
+    padding: 1rem 4rem;
+    border-radius: 8px;
+    cursor: pointer;
+    right: 175px;
+    position: relative;
+    bottom: 50px;
+  }
+}
+
+@mixin mobile {
+    @media screen and (max-width: 480px) {
+        @content;
+    }
+}
