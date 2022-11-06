@@ -3,9 +3,9 @@ import "../styles/about.css"
 function About() {
   return (
     <div className='about'>
-      <h1 className='about-text1 font-extrabold pl-1 text-blue-500 italic'>Why Choose us?</h1>
-      <h2 className='about-text2 pl-1'>We Are Professional, Convenient & Easy to Use</h2>
-      <h2 className='about-text3'>We are here to guide you, with the best route.</h2>
+      <h2 className='about-text1 font-extrabold pl-1 text-blue-500 italic'>Why Choose us?</h2>
+      <div className='about-text2 pl-1'>We Are Professional, Convenient & Easy to Use</div>
+      <h3 className='about-text3'>We are here to guide you, with the best route.</h3>
       <ul  className="list list-disc ml-5 pl-6">
         <li>Go beyond logistics, make the world go round and revolutionize business.</li>
         <li>Logistics through innovation, dedication, and technology. ready, set, done.</li>
@@ -14,7 +14,7 @@ function About() {
         <li>Quality never goes out of style. safety, quality, professionalism.</li>
       </ul>
 
-      <h2 className='about-text2 pl-1 pb-2 mt-6'>We have a wide range of solution to your problem-</h2>
+      <h2 className='about-text4 pb-2 mt-6'>We have a wide range of solution to your problem-</h2>
       <ol className='list-decimal ml-5 pl-6'>
         <li>Solutions and specialized
           <p>Our aim is to optimize and improve the guidance so that we can give you the best service.</p>
