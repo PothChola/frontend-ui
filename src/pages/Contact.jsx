@@ -11,7 +11,7 @@ export default function FormValidation() {
     }
     return (
         <div className='contact ml-2 mt-2'>
-            <div>Feel free to contact us -</div>
+            <h2 className='text-blue-500'>Feel free to contact us -</h2>
             <Form onSubmit={handleSubmit(onSubmit)} className="contactForm mt-2">
                 <Form.Field>
                     <label className='contactLabel'>Name-</label>

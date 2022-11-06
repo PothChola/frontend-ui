@@ -3,5 +3,12 @@
         margin-top: 20px;
         margin-left: 10px;
     }
+    .searchButton{
+        background-color:#0870EB;
+        border-radius: 20px;
+        color: white;
+        margin-top: 10px;
+        height: 30px;
+    }
 
 }
