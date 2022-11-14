@@ -61,15 +61,16 @@
         position: absolute;
         display: flex;
         flex-direction: column;
-        background-color:rgba(8, 112, 235, 1);
+        background-color:#0D3B66;
         width: 100%;
         height: auto;
         text-align: center;
         z-index: 1;
-        color: rgb(218, 215, 4);
+        color: rgb(255, 255, 255);
     }
     .land-nav-mobile a{
         padding:6px;
+        font-size: 16px;
         border-bottom: 1px solid white;
     }
 }
