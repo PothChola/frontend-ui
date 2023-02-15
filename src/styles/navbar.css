@@ -22,9 +22,33 @@
         display: none;
     }
     
-    .logo{
-        float: right;
+    nav{
+        border-bottom: 1px solid black;
+        width: 100%;
     }
+
+    .buttonlogo{
+        display: flex;
+        justify-content: space-between; 
+        align-items: center;
+        height: 5vh;
+        min-height: 38px;
+    }
+    .logo{
+       width:110px;
+       /* height: 43px; */
+    
+    }
+    /* .logo{
+        top: 0;
+        margin-top: 0;
+        float: right;
+        /* position: fixed; */
+        /* right: 0; */
+        /* width: 55px;
+        height: 100%;
+        display: inline;
+    } */ 
     .hamburger-button
     {
         display: block;
@@ -37,7 +61,7 @@
         position: absolute;
         display: flex;
         flex-direction: column;
-        background-color:rgba(8, 112, 235, 1);
+        background-color:#0D3B66;
         width: 100%;
         height: auto;
         text-align: center;
@@ -46,6 +70,7 @@
     }
     .land-nav-mobile a{
         padding:6px;
+        font-size: 16px;
         border-bottom: 1px solid white;
     }
 }

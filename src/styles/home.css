@@ -2,5 +2,42 @@
     .homePage{
         margin-top: 20px;
         margin-left: 10px;
+        padding-bottom: 30px;
+        margin-right: 10px;
+    }
+    .searchButton{
+        background-color:#0D3B66;
+        border-radius: 20px;
+        color: white;
+        margin-top: 10px;
+        height: 30px;
+    }
+    .welcome{
+        color: #0D3B66;
+    }
+    .preference{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .or{
+        text-align: center;
+    }
+    .oroption{
+        /* align-items: center; */
+        background-color:#0D3B66 ;
+        color: white;
+        height: 50px;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left: 4px;
+        padding-right: 4px;
+    }
+    .buttonsize{
+        align-items: center;
+        display: flex;
+        justify-content: center;
     }
 }

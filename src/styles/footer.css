@@ -1,0 +1,12 @@
+.footer{
+    position: absolute;
+    top: 93%;
+    /* bottom: 90%; */
+    height: 10vh;
+    margin-top: 50px;
+    width: 100vw;
+}
+.footul{
+    width: 100%;
+    justify-content: space-evenly;
+}
