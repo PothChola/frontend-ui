@@ -3,6 +3,7 @@
         margin-top: 20px;
         margin-left: 10px;
         padding-bottom: 30px;
+        margin-right: 10px;
     }
     .searchButton{
         background-color:#0D3B66;
@@ -14,6 +15,11 @@
     .welcome{
         color: #0D3B66;
     }
+    .preference{
+        display: flex;
+        justify-content: space-between;
+    }
+
     .or{
         text-align: center;
     }

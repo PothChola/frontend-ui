@@ -2,6 +2,10 @@ import React from 'react'
 import "../styles/home.css"
 import buses from "../assets/buses.svg";
 import preference from "../assets/preference.svg";
+import bus from "../assets/Frontend/bus.svg";
+import metro from "../assets/Frontend/metro.svg";
+import auto from "../assets/Frontend/auto.svg";
+import train from "../assets/Frontend/train.svg";
 
 export default function Home() {
   return (
@@ -16,7 +20,12 @@ export default function Home() {
       </div>
       <button className='searchButton w-32' >Search</button>
       <h4>Choose your means of Travel- </h4>
-      <img src={preference} alt="preference"/>
+      <div className='preference'>
+        <img src={bus}/>
+        <img src={auto} />
+        <img src={metro}/>
+        <img src={train} />
+      </div>
       <h3 className='or'>OR</h3>
       <div className='buttonsize'>
       <button className='oroption'>Cheapest and shortest route.</button>
